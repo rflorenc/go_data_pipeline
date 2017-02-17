@@ -21,4 +21,5 @@ func main() {
 		os.Exit(2)
 	}
 	log.Printf("Loaded config: %s\n", cfg.ToString())
+	fmt.Println(cfg)
 }
